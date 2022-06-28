@@ -1,0 +1,9 @@
+gametype,1,0:¶ó¿îµåÁ¦ 1:¼¶¸ê,dataversion(float)=,0.1,,,,,,,,,,
+roundTime,180,,maxvelocity=,8000,,,,,,,,,,
+wall,0,,AirbotPoolSize,20 15 1,,,,,,,,,,
+wall,0,,,,,,,,,,,,,
+RewardRound,0,,,,,,,,,,,,,
+round,waveTypes,limit time,damageAdd,attackRangeAdd,healthAdd,armorAdd,speedAdd,IntervalAdd,moneyAdd,BGM,PlayerSpawn,obj_break_health,AirVelocity,max_drone_count
+1,1,0,0,0,0,0,0,0,0,5,1,250000,0 2100 0,20
+2,2,0,0,0,0,0,0,0,0,5,2,0,0 1750 0,0
+3,3,0,0,0,0,0,0,0,0,5,3,0,0 1800 0,10
