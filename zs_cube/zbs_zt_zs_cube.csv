@@ -1,0 +1,13 @@
+id,appearance,attackDamage,attackRange,attackInterval,health,armor,speed,bonusMoney,priority,skill,color,Killtype,EventClass,propensity,clearpoint,dropItem
+1,zombi_host,2,50,5,120,60,140,700,0,0,255 255 255,0,100,0,0,0
+2,zombi_origin,5,50,5,170,90,150,900,0,1,255 255 255,0,101,0,0,0
+3,speed_zombi_host,7,50,5,90,60,165,1400,0,0,255 255 255,0,110,0,0,0
+4,speed_zombi_origin,10,50,5,150,80,190,1800,0,2,255 255 255,0,111,0,0,0
+5,heavy_zombi_host,3,50,5,200,120,120,1200,0,0,255 255 255,0,120,0,0,0
+6,heavy_zombi_origin,7,50,5,290,190,120,1600,0,3,255 255 255,0,121,0,0,0
+7,pc_zombi_origin,6,50,5,180,180,140,2000,0,4,255 255 255,0,131,0,0,0
+8,heal_zombi_origin,5,50,5,180,180,160,2000,0,5,255 255 255,0,141,0,0,0
+9,deimos_zombi_host,8,50,5,250,200,150,2500,0,0,255 255 255,0,180,0,0,0
+10,deimos_zombi_origin,10,50,5,450,300,165,3000,1,8,255 255 255,0,181,0,0,0
+11,zombi_host,2,1000,6,100,100,150,1500,0,6,80 228 91,0,102,0,0,0
+100,zbs_bossS_jun01,15,50,5,2000,2000,180,5000,1,9,255 255 255,0,182,0,0,0
