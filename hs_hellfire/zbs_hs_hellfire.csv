@@ -1,0 +1,8 @@
+gametype,1,0:¶ó¿îµåÁ¦ 1:¼¶¸ê,,,,,,,,,
+roundTime,0,,,,,,,,,,
+walldmg,30,,,,,,,,,,
+wallmoney,200,,,,,,,,,,
+RewardRound,0,,,,,,,,,,
+round,waveTypes,limit time,damageAdd,attackRangeAdd,healthAdd,armorAdd,speedAdd,IntervalAdd,moneyAdd,BGM,PlayerSpawn
+1,1,0,0,0,0,0,0,0,0,5,1
+2,2,0,0,0,0,0,0,0,0,6,2
