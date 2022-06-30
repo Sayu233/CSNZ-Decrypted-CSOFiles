@@ -1,0 +1,7 @@
+temp,id,type,ratio,cooltime,aniTime,aniSeq,damageDelay,damage,damageDegree,damageHeight,damageDist,forceAttackTime,startDistMin,startDistMax,startHealthMin,startHealthMax,approachDist,startMsg,kickSide,kickUp,rushPower
+중간보스1_시작,1000,360,255,10,5,chainsaw_appear,0,0,0,5,0,0,0,9999,0,100,10000,-1,0,0,0
+체인톱_평타1,1000,332,100,2,3.33,chainsaw_attack01,1.2,80,120,5,9,0,0,5,0,100,10000,-1,0,0,0
+체인톱_평타2,1000,333,80,2,3.33,chainsaw_attack02,1.36,100,120,5,10,0,0,8,0,100,10000,-1,0,0,0
+체인톱_띄우기,1000,334,50,4,3.33,chainsaw_attack03,1.5,60,120,5,6,0,0,5,0,100,10000,-1,0,500,0
+체인톱_넉백,1000,335,50,10,3.33,chainsaw_attack04,1,50,120,5,6,0,0,5,0,100,10000,-1,500,0,0
+점프_공격_중간보스1,1000,361,100,10,0,zbs_idle,0,180,120,10,110,0,0,1000,0,100,10000,-1,0,0,0

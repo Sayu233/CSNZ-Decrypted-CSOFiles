@@ -1,0 +1,13 @@
+x,y,z,pitch,yaw,roll,type,useCount,difficulty,model
+-249,734,76,0,0,0,2,-1,,models/bg_armorbox_group.mdl
+-191,731,64,0,180,0,3,-1,,models/bg_ammobox_group.mdl
+-134,728,64,0,90,0,1,1,,models/bg_medibox_group.mdl
+175,728,64,0,90,0,1,1,,models/bg_medibox_group.mdl
+230,731,64,0,180,0,3,-1,,models/bg_ammobox_group.mdl
+289,734,76,0,0,0,2,-1,,models/bg_armorbox_group.mdl
+313,-734,76,0,180,0,2,-1,,models/bg_armorbox_group.mdl
+255,-731,64,0,0,0,3,-1,,models/bg_ammobox_group.mdl
+198,-728,64,0,-90,0,1,1,,models/bg_medibox_group.mdl
+-111,-728,64,0,-90,0,1,1,,models/bg_medibox_group.mdl
+-166,-731,64,0,0,0,3,-1,,models/bg_ammobox_group.mdl
+-225,-734,76,0,180,0,2,-1,,models/bg_armorbox_group.mdl
