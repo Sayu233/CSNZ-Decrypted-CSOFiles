@@ -1,0 +1,12 @@
+gametype,0,0:¶ó¿îµåÁ¦ 1:¼¶¸ê,,,,,,,,,
+roundTime,180,,,,,,,,,,
+wall,0,,,,,,,,,,
+wall,0,,,,,,,,,,
+wallexp,0,,,,,,,,,,
+RewardRound,0,,,,,,,,,,
+round,waveTypes,GoalKillCount,damageAdd,attackRangeAdd,healthAdd,armorAdd,speedAdd,IntervalAdd,moneyAdd,BGM,PlayerSpawn
+1,4,0,0,0,20,0,25,0,30,3,0
+2,7 20,0,5,5,50,20,30,-0.5,50,2,0
+3,9 20,0,10,10,100,30,40,-0.5,80,3,0
+4,17 20,0,15,15,200,120,60,-2,120,2,0
+5,19,0,25,25,250,200,65,-2.5,150,2,0
