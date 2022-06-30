@@ -1,0 +1,17 @@
+temp,id,type,ratio,cooltime,aniTime,aniSeq,damageDelay,damage,damageDegree,damageHeight,damageDist,forceAttackTime,startDistMin,startDistMax,startHealthMin,startHealthMax,approachDist,startMsg,kickSide,kickUp,rushPower
+Spawn,1000,211,255,999999,18,zbs_appear,0.2,0,0,0,0,0,0,1000,99,100,0,-1,0,0,0
+근접1,1000,212,10,5,3,zbs_attack1,0.5,100,60,5,10,2,0,10,0,100,10,-1,300,100,30
+근접2,1000,213,10,5,3,zbs_attack2,0.7,100,60,5,10,2,0,10,0,100,10,-1,300,100,30
+근접3,1000,214,10,5,3,zbs_attack3,1.3,100,60,5,10,2,0,10,0,100,15,-1,300,100,30
+충격파1,1000,215,20,10,3,zbs_attack_shockwave,2.1,150,25,5,7,0,5,1000,51,100,15,-1,100,0,1800
+충격파2,1000,215,20,10,3,zbs_attack_shockwave,2.1,350,25,5,7,0,5,1000,0,50,15,-1,100,0,2000
+teleport1,1000,216,20,10,1.13,zbs_warpattack_ready,0,150,100,1,7,5,0,9999,75,100,10,-1,500,300,2500
+teleport2,1000,216,20,10,1.13,zbs_warpattack_ready,0,200,100,1,7,5,0,9999,0,74,10,-1,500,300,2500
+throw_thorns1,1000,217,20,10,5,zbs_attack_thorny,3,150,30,5,8,5,0,1000,66,100,0,-1,500,250,20
+throw_thorns2(damageDelay : 독가시 던지는 타이밍),1000,217,20,10,5,zbs_attack_thorny,3,250,30,5,8,5,0,1000,0,65,0,-1,500,250,25
+fire_m134(rushpower : 발사 시간),1000,218,255,999999,3,zbs_jump_start,0,200,0,5,15,5,0,1000,76,90,0,1398,100,0,15
+fire_rocket(rushpower : 로켓 개수 ),1000,219,255,999999,4,zbs_jump_start,0,350,0,5,0,0,0,1000,61,75,0,1398,100,0,5
+fire_m134(rushpower : 발사 시간)2,1000,218,255,999999,3,zbs_jump_start,0,250,0,5,15,5,0,1000,46,60,0,1398,100,0,20
+fire_rocket(rushpower : 로켓 개수 )2,1000,219,255,999999,4,zbs_jump_start,0,400,0,5,0,0,0,1000,31,45,0,1398,100,0,7
+fire_m134(rushpower : 발사 시간)3,1000,218,255,999999,3,zbs_jump_start,0,300,0,5,15,5,0,1000,16,30,0,1398,100,0,20
+fire_rocket(rushpower : 로켓 개수 )3,1000,219,255,999999,4,zbs_jump_start,0,450,0,5,0,0,0,1000,0,15,0,1398,100,0,7
