@@ -1,0 +1,8 @@
+gametype,10,0:라운드제 1:섬멸 10: 연속 보스전,,,,,,,,,
+roundTime,0,,,,,,,,,,
+wallBonusDmg,125,,,,,,,,,,
+wallBonusPoint,200,,,,,,,,,,
+wallexp,160,,,,,,,,,,
+RewardRound,0,,,,,,,,,,
+round,waveTypes,GoalKillCount,damageAdd,attackRangeAdd,healthAdd,armorAdd,speedAdd,IntervalAdd,moneyAdd,BGM,PlayerSpawn
+1,1,0,0,0,0,0,0,0,0,0,1
