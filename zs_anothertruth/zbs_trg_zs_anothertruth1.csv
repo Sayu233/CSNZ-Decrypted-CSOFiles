@@ -1,0 +1,8 @@
+id,type,map trigger id,wave id,cool time,dest ratio,end wave,hostCrashReset,roundTimeBase
+1,w,1,1,0,,,,
+1,k,401,401,0,,1,,
+1,w,2,2,0,,1,,
+1,w,3,3,0,,2,,
+1,w,4,4,0,,3,,
+1,w,5,5,0,,4,,
+1,w,6,6,0,,5,,
