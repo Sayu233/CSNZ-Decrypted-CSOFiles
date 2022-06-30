@@ -1,0 +1,6 @@
+!,id,type,ratio,cooltime,aniTime,aniSeq,damageDelay,damage,damageDegree,damageHeight,damageDist,forceAttackTime,startDistMin,startDistMax,startHealthMin,startHealthMax,approachDist,startMsg,kickSide,kickUp,rushPower
+BMissile,1100,390,255,7,4,zbs_Idle,0,100,0,5,5,0,0,9999,0,100,10000,-1,500,300,0
+BMissile,1200,390,30,3,4,zbs_Idle,0,100,0,5,3,0,0,9999,0,100,10000,-1,300,150,0
+DMissile,1200,392,50,5,4,zbs_Idle,0,150,0,5,3,0,0,9999,0,100,10000,-1,250,100,0
+GMissile,1200,391,10,15,4,zbs_Idle,0,0,0,0,0,0,0,9999,0,100,10000,-1,500,500,0
+MultiMissile,1300,393,255,0.1,4,zbs_Idle,0,0,0,0,0,0,0,9999,0,100,10000,-1,0,0,0
