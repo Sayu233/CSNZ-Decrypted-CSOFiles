@@ -1,0 +1,3 @@
+temp,id,type,우선순위(ratio),cooltime,동시사용 스킬 정보(aniTime),미사용(aniSeq),공격 tick(damageDelay),damage,미사용(damageDegree),메가에너지포 양쪽 사이 거리 (damageHeight),스플래시 범위(damageDist),지속시간(forceAttackTime),미사용(startDistMin),미사용(startDistMax),발사체 체력(startHealthMin),startHealthMax,미사용(approachDist),startMsg,포격수(kickSide),반파시 포격 횟수(kickUp),발사체 속력(rushPower)
+수평,1000,412,50,0,503,"""""",2,1000,0,0,5,2,0,0,0,100,0,-1,600,200,1
+수직,1000,413,50,5,503,"""""",2,1000,0,0,5,2,0,0,0,100,0,-1,600,200,1
