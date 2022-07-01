@@ -1,9 +1,0 @@
-gametype,1,0:¶ó¿îµåÁ¦ 1:¼¶¸ê,,,,,,,,,
-roundTime,0,,,,,,,,,,
-wallBonusDmg,125,,,,,,,,,,
-wallBonusPoint,250,,,,,,,,,,
-wallBonusExp,1,,,,,,,,,,
-RewardRound,0,,,,,,,,,,
-round,waveTypes,GoalKillCount,damageAdd,attackRangeAdd,healthAdd,armorAdd,speedAdd,IntervalAdd,moneyAdd,BGM,PlayerSpawn
-1,1,0,0,0,0,0,0,0,0,0,1
-2,0,0,0,0,0,0,0,0,0,0,2
