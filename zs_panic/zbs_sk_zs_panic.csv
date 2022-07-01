@@ -1,5 +1,0 @@
-temp,id,type,ratio,cooltime,aniTime,aniSeq,damageDelay,damage,damageDegree,damageHeight,damageDist,forceAttackTime,startDistMin,startDistMax,startHealthMin,startHealthMax,approachDist,startMsg,kickSide,kickUp,rushPower
-전방펀치,1000,83,4,10,3.366666667,zbs_attack1,1.1,100,90,5,10,3,0,1000,0,100,10,-1,300,100,0
-회전펀치,1000,84,4,10,3.366666667,zbs_attack2,1,85,180,5,10,3,0,1000,0,100,10,-1,300,100,0
-화염방사,1000,85,1,10,8.733333333,zbs_attack_flame,1.6,21,0,0,25,3,0,1000,0,100,10,-1,0,0,0.85
-레이저,1000,86,1,10,8.733333333,zbs_attack_lazer,1.3,23,0,0,30,1,0,1000,0,100,15,-1,0,0,3.5
