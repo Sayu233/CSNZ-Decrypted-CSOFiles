@@ -1,0 +1,3 @@
+id,appearance,attackDamage,attackRange,attackInterval,health,armor,speed,bonusMoney,priority,skill,color,Killtype,EventClass,propensity,clearpoint,dropItem,exp,isShowHPInfo,mmNum,waveType,"render[mode, fx, alpha]",spawnMessageNum,name
+31901,zbsgoliath,1,300,8,200000,200000,200,16000,1,1010,255 200 200,0,172,2,5,2,20000,0,-1,-1,2 0 225,,
+31900,zbs71,1,300,3,5000000,5000000,220,32000,2,1000,255 255 255,0,170,2,100,3,22400,0,-1,-1,2 0 225,,
