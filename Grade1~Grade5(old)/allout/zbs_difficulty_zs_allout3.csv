@@ -1,0 +1,6 @@
+;ID,Dif_Name,exp,point,round_retry 초,cleartime 분,spawn_cooltime 배율,item_cooltime 배율,joinlevel,common_ATK,common_Health,common_Speed,midboss_ATK,midboss_Health,midboss_speed,boss_ATK,boss_HP,boss_SPD,ClassEXPRatio,STR_HP,STR_EXP,STR_Money,minExp,maxExp,dmgExpRatio,maxMoney,dmgMoneyRatio
+1,#CSO_ZBS_DIFF_GRADE1,0.3,0.3,0,3,0.1,0.1,0.8,0.1,0.1,0.8,0.1,0.1,0.8,0.1,0.1,0.9,2,0.01,1,0.3,200,1500,0.8,500,0.2
+2,#CSO_ZBS_DIFF_GRADE2,1,1,0,3,0.5,0.4,0,1,1,1,1,1,1,1,1,1,1,1,1,1,200,1000,0.8,300,0.2
+3,#CSO_ZBS_DIFF_GRADE3,1,1,60,3,0.9,0.7,0,2,4,1,1.5,2.2,1,2.2,1.4,1,1,1.4,1,1,200,1000,0.8,300,0.2
+4,#CSO_ZBS_DIFF_GRADE4,1,1,180,3,1,1,0,3.5,7,1,2,3,1,4,1.7,1,1,1.7,1,1,200,1000,0.8,300,0.2
+5,#CSO_ZBS_DIFF_GRADE5,1,1,600,3,3,2,0,5,10,1,4,5,1,6,2,1,1,2,1,1,200,1000,0.8,300,0.2
