@@ -1,0 +1,10 @@
+id,team,BuildingAttibute,x,y,angle,,,,,
+1,2,1,-1792,-2208,2,shelter_team_staticbuilding_1_on,shelter_team_staticbuilding_1_off,shelter_team_staticbuilding_1_ladder,shelter_team_staticbuilding_1_wall1,망루1
+2,2,1,-384,-2304,2,shelter_team_staticbuilding_2_on,shelter_team_staticbuilding_2_off,shelter_team_staticbuilding_2_ladder,shelter_team_staticbuilding_2_wall1,망루2
+3,2,2,-1440,-2752,3,shelter_team_staticbuilding_3_on,shelter_team_staticbuilding_3_off,,,작업실
+4,2,5,-720,-2352,0,shelter_team_staticbuilding_4_on,shelter_team_staticbuilding_4_off,,,통신탑
+5,2,4,-640,-3072,0,shelter_team_staticbuilding_5_on,shelter_team_staticbuilding_5_off,,,콘크리트정제소
+6,2,6,-640,-2176,0,shelter_team_staticbuilding_6_on,shelter_team_staticbuilding_6_off,,,발전기1
+7,2,6,-384,-2944,0,shelter_team_staticbuilding_7_on,shelter_team_staticbuilding_7_off,,,발전기2
+8,2,6,-2048,-3072,0,shelter_team_staticbuilding_8_on,shelter_team_staticbuilding_8_off,,,발전기3
+9,2,6,-1792,-2432,0,shelter_team_staticbuilding_9_on,shelter_team_staticbuilding_9_off,,,발전기4
