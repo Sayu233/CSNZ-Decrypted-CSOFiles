@@ -1,7 +1,0 @@
-gametype,3,0:扼款靛力 1:级戈 3: 格钎拱 规绢,,,,,,,,,
-roundTime,9999,,,,,,,,,,
-wall,0,,,,,,,,,,
-wall,0,,,,,,,,,,
-RewardRound,0,,,,,,,,,,
-round,waveTypes,GoalKillCount,damageAdd,attackRangeAdd,healthAdd,armorAdd,speedAdd,IntervalAdd,moneyAdd,BGM,PlayerSpawn
-1,1,0,0,0,15,0,0,0,10,5,1
