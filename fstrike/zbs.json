@@ -1,0 +1,1441 @@
+{
+    "ZBS_ClueItem": {
+        "Type":{
+            "NONE":                             0,
+            "BLAST_RESIST":                     1,
+            "DROP_WEAPON_RESIST":               2,
+            "TRAP_RESIST":                      3,
+            "JUMP":                             4,
+            "CRITICAL":                         5,
+            "FLINCH_RESIST":                    6,
+            "DEATH_RESIST":                     7,
+            "INITIAL_HEALTH":                   8,
+            "INITIAL_ATTACK_DAMAGE":            9,
+            "INITIAL_ARMOR":                    10,
+            "INITIAL_SPEED":                    11,
+            "INITIAL_AMMO":                     12,
+            "BOSS_DAMAGE":                      13,
+            "MAX_HEALTH_LEVEL":                 14,
+            "MAX_ATTACK_DAMAGE_LEVEL":          15,
+            "MAX_ARMOR_LEVEL":                  16,
+            "MAX_SPEED_LEVEL":                  17,
+            "MAX_AMMO_LEVEL":                   18,
+            "INITIAL_MONEY":                    19,
+            "MONEY_RATIO":                      20,
+            "EXP_RATIO":                        21,
+            "FALL_DOWN_DAMAGE_REDUCE_RATIO":    22,
+            "ZOMBIE_DAMAGE":                    23,
+            "BREAKABLE_DAMAGE":                 24,
+            "HEAL_HEALTH":                      25,
+            "LASTCLUE_RESIST_BOSS_SHOCKWAVE":   26,
+            "LASTCLUE_RESIST_BOSS_FRONTATTACK": 27,
+            "LASTCLUE_RESIST_BOSS_RUSH":        28,
+            "PANICROOM_RESIST_MIDBOSS_FLAME":   29,
+            "PANICROOM_RESIST_MIDBOSS_PUNCH":   30,    
+            "PANICROOM_RESIST_MIDBOSS_LASER":   31,
+            "PANICROOM_RESIST_BOSS_MISSILE":    32,
+            "PANICROOM_RESIST_BOSS_LASER":      33,
+            "EVACUATE_RESIST_BOSS_ATTACK1":     34,
+            "EVACUATE_RESIST_BOSS_ATTACK2":     35,
+            "EVACUATE_RESIST_BOSS_ATTACK3":     36,
+            "ALLOUT_RESIST_BOSS_ATTACK1":       37,
+            "ALLOUT_RESIST_BOSS_ATTACK2":       38,
+            "ALLOUT_RESIST_BOSS_ATTACK3":       39,
+            "ZOMBIE_BOMB_RESIST":               40,
+            "ZOMBIE_SUICIDE_BOMB_RESIST":       41,
+            "RENDEZVOUS_RESIST_BOSS_ATTACK1":   42,
+            "RENDEZVOUS_RESIST_BOSS_ATTACK2":   43,
+            "RENDEZVOUS_RESIST_BOSS_ATTACK3":   44
+        },
+        "OperatorType":{
+            "NONE": 0,
+            "RATIO": 1,
+            "SUBSTITUTE": 2,
+            "ADD": 3
+        },
+        "ClueItems":[
+            {
+                "itemID": 0,
+                "type": "NONE",
+                "operatorType": "NONE",
+                "value": 0,
+                "resourceName": ""
+            },
+			{
+                "itemID": 288,
+                "type": "MONEY_RATIO",
+                "operatorType": "RATIO",
+                "value":  1.5,
+                "resourceName": "fundcollection"
+            },
+            {
+                "itemID": 287,
+                "type": "INITIAL_MONEY",
+                "operatorType": "SUBSTITUTE",
+                "value":  32000,
+                "resourceName": "fundplus"
+            },
+            {
+                "itemID": 638,
+                "type": "EXP_RATIO",
+                "operatorType": "RATIO",
+                "value":  1.5,
+                "resourceName": "lvplus"
+            },            
+            {
+                "itemID": 620,
+                "type": "INITIAL_HEALTH",
+                "operatorType": "SUBSTITUTE",
+                "value":  7,
+                "resourceName": "hpplus03"
+            },
+            {
+                "itemID": 621,
+                "type": "INITIAL_HEALTH",
+                "operatorType": "SUBSTITUTE",
+                "value":  5,
+                "resourceName": "hpplus02"
+            },
+            {
+                "itemID": 622,
+                "type": "INITIAL_HEALTH",
+                "operatorType": "SUBSTITUTE",
+                "value":  3,
+                "resourceName": "hpplus01"
+            },
+            {
+                "itemID": 623,
+                "type": "INITIAL_ATTACK_DAMAGE",
+                "operatorType": "SUBSTITUTE",
+                "value":  7,
+                "resourceName": "attplus03"
+            },
+            {
+                "itemID": 624,
+                "type": "INITIAL_ATTACK_DAMAGE",
+                "operatorType": "SUBSTITUTE",
+                "value":  5,
+                "resourceName": "attplus02"
+            },
+            {
+                "itemID": 625,
+                "type": "INITIAL_ATTACK_DAMAGE",
+                "operatorType": "SUBSTITUTE",
+                "value":  3,
+                "resourceName": "attplus01"
+            },
+            {
+                "itemID": 626,
+                "type": "INITIAL_ARMOR",
+                "operatorType": "SUBSTITUTE",
+                "value":  7,
+                "resourceName": "armplus03"
+            },
+            {
+                "itemID": 627,
+                "type": "INITIAL_ARMOR",
+                "operatorType": "SUBSTITUTE",
+                "value":  5,
+                "resourceName": "armplus02"
+            },
+            {
+                "itemID": 628,
+                "type": "INITIAL_ARMOR",
+                "operatorType": "SUBSTITUTE",
+                "value":  3,
+                "resourceName": "armplus01"
+            },
+
+            {
+                "itemID": 629,
+                "type": "INITIAL_SPEED",
+                "operatorType": "SUBSTITUTE",
+                "value":  7,
+                "resourceName": "spdplus03"
+            },
+            {
+                "itemID": 630,
+                "type": "INITIAL_SPEED",
+                "operatorType": "SUBSTITUTE",
+                "value":  5,
+                "resourceName": "spdplus02"
+            },
+            {
+                "itemID": 631,
+                "type": "INITIAL_SPEED",
+                "operatorType": "SUBSTITUTE",
+                "value":  3,
+                "resourceName": "spdplus01"
+            },
+            {
+                "itemID": 632,
+                "type": "INITIAL_AMMO",
+                "operatorType": "SUBSTITUTE",
+                "value":  7,
+                "resourceName": "magazineplus03"
+            },
+            {
+                "itemID": 633,
+                "type": "INITIAL_AMMO",
+                "operatorType": "SUBSTITUTE",
+                "value":  5,
+                "resourceName": "magazineplus02"
+            },
+            {
+                "itemID": 634,
+                "type": "INITIAL_AMMO",
+                "operatorType": "SUBSTITUTE",
+                "value":  3,
+                "resourceName": "magazineplus01"
+            },
+			{
+                "itemID": 635,
+                "type": "BOSS_DAMAGE",
+                "operatorType": "RATIO",
+                "value":  1.12,
+                "resourceName": "weakpoint03"
+            },
+            {
+                "itemID": 636,
+                "type": "BOSS_DAMAGE",
+                "operatorType": "RATIO",
+                "value":  1.1,
+                "resourceName": "weakpoint02"
+            },
+			{
+                "itemID": 637,
+                "type": "BOSS_DAMAGE",
+                "operatorType": "RATIO",
+                "value":  1.05,
+                "resourceName": "weakpoint01"
+            },
+            {
+                "itemID": 615,
+                "type": "MAX_AMMO_LEVEL",
+                "operatorType": "ADD",
+                "value":  1,
+                "resourceName": "ttpoisonfire"
+            },
+            {
+                "itemID": 615,
+                "type": "MAX_SPEED_LEVEL",
+                "operatorType": "ADD",
+                "value":  1,
+                "resourceName": "ttpoisonfire"
+            },	
+            {
+                "itemID": 615,
+                "type": "MAX_ARMOR_LEVEL",
+                "operatorType": "ADD",
+                "value":  1,
+                "resourceName": "ttpoisonfire"
+            },
+            {
+                "itemID": 615,
+                "type": "MAX_ATTACK_DAMAGE_LEVEL",
+                "operatorType": "ADD",
+                "value":  1,
+                "resourceName": "ttpoisonfire"
+            },
+            {
+                "itemID": 619,
+                "type": "MAX_ATTACK_DAMAGE_LEVEL",
+                "operatorType": "ADD",
+                "value":  5,
+                "resourceName": "ttsnow"
+            },
+						{
+                "itemID": 851,
+                "type": "MAX_ARMOR_LEVEL",
+                "operatorType": "ADD",
+                "value":  3,
+                "resourceName": "ttphobos"
+            },
+			{
+                "itemID": 851,
+                "type": "MAX_AMMO_LEVEL",
+                "operatorType": "ADD",
+                "value":  2,
+                "resourceName": "ttphobos"
+            },
+			{
+                "itemID": 852,
+                "type": "MAX_SPEED_LEVEL",
+                "operatorType": "ADD",
+                "value":  5,
+                "resourceName": "ttdione"
+            },
+			{
+                "itemID": 853,
+                "type": "MAX_ATTACK_DAMAGE_LEVEL",
+                "operatorType": "ADD",
+                "value":  3,
+                "resourceName": "ttrustyscorpion"
+            },
+			{
+                "itemID": 853,
+                "type": "MAX_SPEED_LEVEL",
+                "operatorType": "ADD",
+                "value":  2,
+                "resourceName": "ttrustyscorpion"
+            },
+			{
+                "itemID": 854,
+                "type": "MAX_HEALTH_LEVEL",
+                "operatorType": "ADD",
+                "value":  2,
+                "resourceName": "ttmadmechanic"
+            },
+			{
+                "itemID": 854,
+                "type": "MAX_ARMOR_LEVEL",
+                "operatorType": "ADD",
+                "value":  3,
+                "resourceName": "ttmadmechanic"
+            },
+			{
+                "itemID": 855,
+                "type": "MAX_HEALTH_LEVEL",
+                "operatorType": "ADD",
+                "value":  5,
+                "resourceName": "ttgluttony"
+            },
+			{
+                "itemID": 856,
+                "type": "MAX_HEALTH_LEVEL",
+                "operatorType": "ADD",
+                "value":  3,
+                "resourceName": "ttzavistneid"
+            },
+			{
+                "itemID": 856,
+                "type": "MAX_ATTACK_DAMAGE_LEVEL",
+                "operatorType": "ADD",
+                "value":  2,
+                "resourceName": "ttzavistneid"
+            },
+            {
+                "itemID": 696,
+                "type": "MAX_ATTACK_DAMAGE_LEVEL",
+                "operatorType": "ADD",
+                "value":  3,
+                "resourceName": "ttsnake"
+            },
+            {
+                "itemID": 615,
+                "type": "MAX_HEALTH_LEVEL",
+                "operatorType": "ADD",
+                "value":  1,
+                "resourceName": "ttpoisonfire"
+            },
+            {
+                "itemID": 696,
+                "type": "MAX_HEALTH_LEVEL",
+                "operatorType": "ADD",
+                "value":  2,
+                "resourceName": "ttsnake"
+            },
+            {
+                "itemID": 612,
+                "type": "CRITICAL",
+                "operatorType": "SUBSTITUTE",
+                "value":  0.03,
+                "resourceName": "cosoberonhead"
+            },
+			{
+                "itemID": 613,
+                "type": "DROP_WEAPON_RESIST",
+                "operatorType": "SUBSTITUTE",
+                "value":  0.2,
+                "resourceName": "cosoberonbombhead"
+            },
+            {
+                "itemID": 765,
+                "type": "FLINCH_RESIST",
+                "operatorType": "RATIO",
+                "value":  0.2,
+                "resourceName": "cosjackmaskface"
+            },
+            {
+                "itemID": 790,
+                "type": "CRITICAL",
+                "operatorType": "SUBSTITUTE",
+                "value":  0.04,
+                "resourceName": "cronobotics53_face"
+            },
+            {
+                "itemID": 617,
+                "type": "TRAP_RESIST",
+                "operatorType": "SUBSTITUTE",
+                "value":  0.2,
+                "resourceName": "coskrakenback"
+            },
+			{
+                "itemID": 616,
+                "type": "DEATH_RESIST",
+                "operatorType": "SUBSTITUTE",
+                "value":  100,
+                "resourceName": "costitanback"
+            },
+			{
+                "itemID": 614,
+                "type": "JUMP",
+                "operatorType": "RATIO",
+                "value":  0.75,
+                "resourceName": "cosangraback"
+            },
+			{
+                "itemID": 712,
+                "type": "JUMP",
+                "operatorType": "RATIO",
+                "value":  0.8,
+                "resourceName": "cosgrasshopperback"
+            },
+			{
+                "itemID": 712,
+                "type": "INITIAL_SPEED",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "cosgrasshopperback"
+            },
+			{
+                "itemID": 850,
+                "type": "JUMP",
+                "operatorType": "RATIO",
+                "value":  0.8,
+                "resourceName": "cronobotics54_back"
+            },
+		    {
+                "itemID": 850,
+                "type": "FALL_DOWN_DAMAGE_REDUCE_RATIO",
+                "operatorType": "RATIO",
+                "value":  0.8,
+                "resourceName": "cronobotics54_back"
+            },
+			{
+                "itemID": 618,
+                "type": "BLAST_RESIST",
+                "operatorType": "RATIO",
+                "value":  0.75,
+                "resourceName": "cosfrozenwrathback"
+            },
+			{
+                "itemID": 900,
+                "type": "HEAL_HEALTH",
+                "operatorType": "ADD",
+                "value":  1,
+                "resourceName": "mr_x_zb_back"
+            },
+			{
+                "itemID": 963,
+                "type": "INITIAL_ARMOR",
+                "operatorType": "SUBSTITUTE",
+                "value":  3,
+                "resourceName": "cosbrachyuraback"
+            },
+			{
+                "itemID": 3600,
+                "type": "LASTCLUE_RESIST_BOSS_SHOCKWAVE",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "lastclue_boss01"
+           },
+			{
+                "itemID": 3601,
+                "type": "LASTCLUE_RESIST_BOSS_FRONTATTACK",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "lastclue_boss02"
+			},	
+            {
+                "itemID": 3602,
+                "type": "LASTCLUE_RESIST_BOSS_RUSH",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "lastclue_boss03"
+            },
+			{
+                "itemID": 3603,
+                "type": "PANICROOM_RESIST_MIDBOSS_FLAME",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "panic_middleboss01"
+            },
+			{
+                "itemID": 3604,
+                "type": "PANICROOM_RESIST_MIDBOSS_PUNCH",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "panic_middleboss02"
+            },
+			{
+                "itemID": 3605,
+                "type": "PANICROOM_RESIST_MIDBOSS_LASER",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "panic_middleboss03"
+            },
+			{
+                "itemID": 3606,
+                "type": "PANICROOM_RESIST_BOSS_MISSILE",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "panic_boss01"
+            },
+			{
+                "itemID": 3607,
+                "type": "PANICROOM_RESIST_BOSS_LASER",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "panic_boss02"
+            },
+			{
+                "itemID": 3608,
+                "type": "EVACUATE_RESIST_BOSS_ATTACK1",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "evacuate_boss01"
+            },
+			{
+                "itemID": 3609,
+                "type": "EVACUATE_RESIST_BOSS_ATTACK2",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "evacuate_boss02"
+            },
+			{
+                "itemID": 3610,
+                "type": "EVACUATE_RESIST_BOSS_ATTACK3",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "evacuate_boss03"
+            },
+			{
+                "itemID": 3611,
+                "type": "ALLOUT_RESIST_BOSS_ATTACK1",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "allout_boss01"
+            },
+			{
+                "itemID": 3612,
+                "type": "ALLOUT_RESIST_BOSS_ATTACK2",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "allout_boss02"
+            },
+			{
+                "itemID": 3613,
+                "type": "ALLOUT_RESIST_BOSS_ATTACK3",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "allout_boss03"
+            },
+            		{
+                "itemID": 3615,
+                "type": "ZOMBIE_BOMB_RESIST",
+                "operatorType": "RATIO",
+                "value":  0.75,
+                "resourceName": "zboomdown"
+            },
+			{
+                "itemID": 3614,
+                "type": "ZOMBIE_SUICIDE_BOMB_RESIST",
+                "operatorType": "RATIO",
+                "value":  0.85,
+                "resourceName": "zbombdown"
+            },
+			{
+                "itemID": 3616,
+                "type": "RENDEZVOUS_RESIST_BOSS_ATTACK1",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "rendezvous_boss01"
+            },	        
+                        {
+                "itemID": 3617,
+                "type": "RENDEZVOUS_RESIST_BOSS_ATTACK2",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "rendezvous_boss02"
+	    }, 	        
+                        {
+                "itemID": 3618,
+                "type": "RENDEZVOUS_RESIST_BOSS_ATTACK3",
+                "operatorType": "SUBSTITUTE",
+                "value":  1,
+                "resourceName": "rendezvous_boss03"
+            }
+            ]            
+                        },
+    "zbs_add_attribute": {
+        "zs_lastclue": {
+            "mapId": 77,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            },
+            "rewardItems":[
+				{
+                    "ItemID" : 373,
+                    "Difficulty": [1, 2, 3]
+                },
+				{
+                    "ItemID" : 259,
+                    "Difficulty": [3]
+                },			
+				{
+                    "ItemID" : 258,
+                    "Difficulty": [1, 2]
+                },
+ 		                {
+                    "ItemID" : 4036,
+                    "Difficulty": [4, 5]
+                },
+                                {
+                    "ItemID" : 4037,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4038,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4039,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4040,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4607,
+                    "Difficulty": [12]
+                },				           	 
+				{
+                    "ItemID" : 4046,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4047,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4048,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4049,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4050,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4609,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4016,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4017,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4018,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4019,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4020,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4610,
+                    "Difficulty": [12]
+                }
+            ],
+            "difficultyList": [
+                {
+                    "difficultyId": 6,
+                    "difficultyName": "hard3",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 200,
+                            "addAttrList": [
+                                {
+                                    "skill": 2,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 28 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 9,
+                    "difficultyName": "hard6",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 200,
+                            "addAttrList": [
+                                {
+                                    "skill": 1,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 27 ]
+                                },
+                                {
+                                    "skill": 2,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 28 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 12,
+                    "difficultyName": "hard9",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 200,
+                            "addAttrList": [
+                                {
+                                    "skill": 0,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 26 ]
+                                },
+                                {
+                                    "skill": 1,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 27 ]
+                                },
+                                {
+                                    "skill": 2,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 28 ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "zs_panic": {
+            "mapId": 128,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {                
+                "Difficulty": 4
+				            },
+            "rewardItems":[
+			   {
+                    "ItemID" : 373,
+                    "Difficulty": [1, 2, 3]
+                },
+				{
+                    "ItemID" : 259,
+                    "Difficulty": [3]
+                },			
+				{
+                    "ItemID" : 258,
+                    "Difficulty": [1, 2]
+                },
+                {
+                    "ItemID" : 4026,
+                    "Difficulty": [4, 5]
+                },
+                {
+                    "ItemID" : 4027,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4028,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4029,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4030,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4605,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4021,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4022,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4023,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4024,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4025,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4604,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4051,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4052,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4053,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4054,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4055,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4611,
+                    "Difficulty": [12]
+                }
+             ],            
+            "difficultyList": [
+                {
+                    "difficultyId": 6,
+                    "difficultyName": "hard3",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 31002,
+                            "addAttrList": [
+                                {
+                                    "skill": 83,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 29 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 9,
+                    "difficultyName": "hard6",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 31002,
+                            "addAttrList": [
+                                {
+                                    "skill": 83,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 29 ]
+                                },
+                                {
+                                    "skill": 85,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 30 ]
+                                }
+                            ]
+                        },
+                        {
+                            "zombieType": 31100,
+                            "addAttrList": [
+                                {
+                                    "skill": 5,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 33 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 12,
+                    "difficultyName": "hard9",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 31002,
+                            "addAttrList": [
+                                {
+                                    "skill": 83,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 29 ]
+                                },
+                                {
+                                    "skill": 85,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 30 ]
+                                },
+                                {
+                                    "skill": 86,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 31 ]
+                                }
+                            ]
+                        },
+                        {
+                            "zombieType": 31100,
+                            "addAttrList": [
+                                {
+                                    "skill": 4,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 32 ]
+                                },
+                                {
+                                    "skill": 5,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 33 ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "zs_evacuate1": {
+            "mapId": 146,
+			"IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            },
+			     "rewardItems":[
+				                 {
+                    "ItemID" : 373,
+                    "Difficulty": [1, 2, 3]
+                },
+				{
+                    "ItemID" : 259,
+                    "Difficulty": [3]
+                },			
+				{
+                    "ItemID" : 258,
+                    "Difficulty": [1, 2]
+                },
+			    {
+                    "ItemID" : 4006,
+                    "Difficulty": [4, 5]
+                },
+                {
+                    "ItemID" : 4007,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4008,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4009,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4010,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4602,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4031,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4032,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4033,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4034,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4035,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4606,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4056,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4057,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4058,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4059,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4060,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4612,
+                    "Difficulty": [12]
+                }
+        ]
+		},
+        "zs_evacuate2": {
+            "mapId": 147,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            }
+        },
+        "zs_evacuate3": {
+            "mapId": 148,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            },
+            "difficultyList": [
+                {
+                    "difficultyId": 6,
+                    "difficultyName": "hard3",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 32300,
+                            "addAttrList": [
+                                {
+                                    "skill": 196,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 34 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 9,
+                    "difficultyName": "hard6",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 32300,
+                            "addAttrList": [
+                                {
+                                    "skill": 196,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 34 ]
+                                },
+                                {
+                                    "skill": 197,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 35 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 12,
+                    "difficultyName": "hard9",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 32300,
+                            "addAttrList": [
+                                {
+                                    "skill": 196,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 34 ]
+                                },
+                                {
+                                    "skill": 197,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 35 ]
+                                },
+                                {
+                                    "skill": 198,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 36 ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "zs_allout1": {
+            "mapId": 219,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+                },
+			            "rewardItems":[
+				{
+                    "ItemID" : 373,
+                    "Difficulty": [1, 2, 3]
+                },
+				{
+                    "ItemID" : 259,
+                    "Difficulty": [3]
+                },			
+				{
+                    "ItemID" : 258,
+                    "Difficulty": [1, 2]
+                },               		       
+				{
+                    "ItemID" : 4001,
+                    "Difficulty": [4, 5]
+                },
+                                {
+                    "ItemID" : 4002,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4003,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4004,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4005,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4601,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4011,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4012,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4013,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4014,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4015,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4603,
+                    "Difficulty": [12]
+                },				
+				{
+                    "ItemID" : 4041,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4042,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4043,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4044,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4045,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4608,
+                    "Difficulty": [12]
+                }
+        ]
+		},		
+        "zs_allout2": {
+            "mapId": 220,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            }            
+        },
+        "zs_allout3": {
+            "mapId": 221,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            },            
+            "difficultyList": [
+                {
+                    "difficultyId": 6,
+                    "difficultyName": "hard3",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 31900,
+                            "addAttrList": [
+                                {
+                                    "skill": 398,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 37 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 9,
+                    "difficultyName": "hard6",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 31900,
+                            "addAttrList": [
+                                {
+                                    "skill": 398,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 37 ]
+                                },
+                                {
+                                    "skill": 395,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 38 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 12,
+                    "difficultyName": "hard9",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 31900,
+                            "addAttrList": [
+                                {
+                                    "skill": 398,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 37 ]
+                                },
+                                {
+                                    "skill": 395,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 38 ]
+                                },
+                                {
+                                    "skill": 394,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 39 ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+      "zs_rendezvous1": {
+            "mapId": 235,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+                },
+			            "rewardItems":[
+				{
+             "ItemID" : 373,
+                    "Difficulty": [1, 2, 3]
+                },
+				{
+                    "ItemID" : 259,
+                    "Difficulty": [3]
+                },			
+				{
+                    "ItemID" : 258,
+                    "Difficulty": [1, 2]
+                },               		       
+				{
+                    "ItemID" : 4001,
+                    "Difficulty": [4, 5]
+                },
+                                {
+                    "ItemID" : 4002,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4003,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4004,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4005,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4601,
+                    "Difficulty": [12]
+                },
+				{
+                    "ItemID" : 4011,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4012,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4013,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4014,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4015,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4603,
+                    "Difficulty": [12]
+                },				
+				{
+                    "ItemID" : 4041,
+                    "Difficulty": [4, 5]
+                },
+				{
+                    "ItemID" : 4042,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4043,
+                    "Difficulty": [4, 5, 6, 7, 8, 9, 10, 11, 12]
+                },
+				{
+                    "ItemID" : 4044,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4045,
+                    "Difficulty": [10, 11, 12]
+                },
+				{
+                    "ItemID" : 4608,
+                    "Difficulty": [12]
+                }
+                ]
+		},		
+        "zs_rendezvous2": {
+            "mapId": 236,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            }            
+        },
+        "zs_rendezvous3": {
+            "mapId": 237,
+            "IsZBSRebootMap": true,
+            "restrictWeaponDrop": {
+                "Difficulty": 4
+            },            
+            "difficultyList": [
+                {
+                    "difficultyId": 6,
+                    "difficultyName": "hard3",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 32702,
+                            "addAttrList": [
+                                {
+                                    "skill": 406,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 42 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 9,
+                    "difficultyName": "hard6",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 32702,
+                            "addAttrList": [
+                                {
+                                    "skill": 406,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 42 ]
+                                },
+                                {
+                                    "skill": 408,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 43 ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "difficultyId": 12,
+                    "difficultyName": "hard9",
+                    "zombieTypeList": [
+                        {
+                            "zombieType": 32702,
+                            "addAttrList": [
+                                {
+                                    "skill": 406,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 42 ]
+                                },
+                                {
+                                    "skill": 408,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 43 ]
+                                },
+                                {
+                                    "skill": 409,
+                                    "addAttrType": "kill",
+                                    "resistItemId": [ 44 ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "zs_boss_headup_zpos": {
+        "200": 200,
+        "31002": 230,
+        "31100": 2600,
+        "32300": 350,
+        "31900" : 3200,
+	"32702" : 700
+    },
+    "zs_boss_headup_scale":
+    {
+        "31900" : 7,
+	"32702" : 5	
+    }
+}
