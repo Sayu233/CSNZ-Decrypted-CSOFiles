@@ -1,0 +1,633 @@
+{
+	"ZBS_ClueItem": {
+        "Type":{
+            "NONE":                             0
+        },
+        "OperatorType":{
+            "NONE": 0,
+            "RATIO": 1,
+            "SUBSTITUTE": 2,
+            "ADD": 3
+        },
+        "ClueItems":[
+        ]            
+	},
+    "zbs_add_attribute": {
+        "restrictWeaponDrop": {
+			"default": {
+				"Difficulty": 4
+			}
+        }
+    },
+    "zs_boss_headup_zpos": {
+        "200": 200,
+        "31002": 230,
+        "31100": 2600,
+        "32300": 350,
+        "31900" : 3200,
+		"32702" : 700
+    },
+    "zs_boss_headup_scale": {
+        "31900" : 7,
+		"32702" : 5	
+    },
+	"ZBS_Addon": {
+		"Addons": [ 
+			{
+				"ID": 0,
+				"Name": "extraatk",
+				"ItemID": 3619,
+				"Params": { "Damage": 100 }
+			},
+			{
+				"ID": 1,
+				"Name": "bulletupdmg",
+				"ItemID": 3620,
+				"Params": { "DmgPercent": 100 }
+			},
+			{
+				"ID": 2,
+				"Name": "criticalup ",
+				"ItemID": 3621,
+				"Params": { 
+					"Percent": 4,
+					"DmgPercent" : 80
+				}
+			},
+			{
+				"ID": 3,
+				"Name": "swordforce",
+				"ItemID": 3622,
+				"Params": {
+					"Dist": 7,
+					"Width": 2,
+					"Damage": 250,
+					"DamageAdd" : 75
+				}
+			},
+			{
+				"ID": 4,
+				"Name": "survivalatk",
+				"ItemID": 3623,
+				"Params": {
+					"Interval": 15,
+					"DMGPercent": 5,
+					"MaxCount": 20,
+					"MaxCountAdd": 8
+				}
+			},
+			{
+				"ID": 5,
+				"Name": "addbullet",
+				"ItemID": 3624,
+				"Params": {
+					"Percent": 7,
+					"Clip": 5
+				}
+			},
+			{
+				"ID": 6,
+				"Name": "explosionbullet",
+				"ItemID": 3625,
+				"Params": {
+					"Range": 1.7,
+					"Damage": 80
+				}
+			},
+			{
+				"ID": 7,
+				"Name": "spendmoney",
+				"ItemID": 3626,
+				"Params": {
+					"MoneySecRatio": 0.001,
+					"DmgPercent": 60
+				}
+			},
+			{
+				"ID": 8,
+				"Name": "bossatkup ",
+				"ItemID": 3627,
+				"Params": { "DmgPercent": 70 }
+			},
+			{
+				"ID": 9,
+				"Name": "thorns",
+				"ItemID": 3628,
+				"Params": {
+					"Range": 3,
+					"Damage": 300,
+					"CoolTime": 3
+				}
+			},
+			{
+				"ID": 10,
+				"Name": "movedefence",
+				"ItemID": 3629,
+				"Params": { 
+					"Damage": 7,
+					"Percent": 10
+				}
+			},
+			{
+				"ID": 11,
+				"Name": "stillalive",
+				"ItemID": 3630,
+				"Params": {
+					"HP": 100
+				}
+			},
+			{
+				"ID": 12,
+				"Name": "recovery ",
+				"ItemID": 3631,
+				"Params": {
+					"Interval": 1,
+					"HP": 8
+				}
+			},
+			{
+				"ID": 13,
+				"Name": "evadetrap",
+				"ItemID": 3632,
+				"Params": {
+					"Percent": 30
+				}
+			},
+			{
+				"ID": 14,
+				"Name": "speedup",
+				"ItemID": 3633,
+				"Params": {
+					"Percent": 10, "PercentAdd" : 10,
+					"MaxPercent":20
+				}
+			},
+			{
+				"ID": 15,
+				"Name": "walkslam",
+				"ItemID": 3634,
+				"Params": {
+					"MoveDist": 9,
+					"Range": 5,
+					"Damage": 300
+				}
+			},
+			{
+				"ID": 16,
+				"Name": "slowdefence",
+				"ItemID": 3635,
+				"Params": {
+					"SlowDown": 10,
+					"DmgPercent": 10
+				}
+			},
+			{
+				"ID": 17,
+				"Name": "lovemedikit",
+				"ItemID": 3636,
+				"Params": {
+					"CoolTime": 10
+				}
+			},
+			{
+				"ID": 18,
+				"Name": "loverevivalkit",
+				"ItemID": 3637,
+				"Params": {
+					"Percent":15
+				}
+			},
+			{
+				"ID": 19,
+				"Name": "moremoney",
+				"ItemID": 3638,
+				"Params": {
+				"AddPercent":100
+				}
+			},
+			{
+				"ID": 20,
+				"Name": "startmoney",
+				"ItemID": 3639,
+				"Params": {
+				}
+			},
+			{
+				"ID": 21,
+				"Name": "weaponhelper",
+				"ItemID":3640,
+				"Params":{}
+			},
+			{
+				"ID": 22,
+				"Name": "evasion",
+				"ItemID":3641,
+				"Params":{"Percent":10}
+			},
+			{
+				"ID": 23,
+				"Name": "extraaddon",
+				"ItemID":3642,
+				"Params":{}
+			},
+			{
+				"ID": 24,
+				"Name": "healer",
+				"ItemID":3643,
+				"Params":{"Range":6, "Percent":1, "MinHeal":3, "MaxHeal":100}
+			},
+			{
+				"ID": 25,
+				"Name": "avenger",
+				"ItemID":3644,
+				"Params":{
+				"DmgPercent":3, "DmgPercentAdd":3,
+				"MaxPercent":60}
+			},
+			{
+				"ID": 26,
+				"Name": "groupbattle",
+				"ItemID":3645,
+				"Params":{
+				"Dist":10,
+				"DmgPercent":4, "DmgPercentAdd":4
+				}
+			},
+			{
+				"ID": 27,
+				"Name": "extrahealth",
+				"ItemID":3646,
+				"Params":{"HP":500}
+			}
+			
+		]
+	},
+	"ZBS_Elite": {
+		"Properties": [
+			{
+				"difficulty": 1,
+				"attackDamage": 200,
+				"attackRange": 70,
+				"attackInterval": 5,
+				"maxHealth": 300000,
+				"maxArmor": 250000,
+				"maxSpeed": 250,
+				"bonusMoney": 16000,
+				"killType": 0
+			},
+			{
+				"difficulty": 2,
+				"attackDamage": 200,
+				"attackRange": 70,
+				"attackInterval": 5,
+				"maxHealth": 300000,
+				"maxArmor": 300000,
+				"maxSpeed": 250,
+				"bonusMoney": 16000,
+				"killType": 0
+			},
+			{
+				"difficulty": 3,
+				"attackDamage": 260,
+				"attackRange": 80,
+				"attackInterval": 5,
+				"maxHealth": 600000,
+				"maxArmor": 600000,
+				"maxSpeed": 250,
+				"bonusMoney": 16000,
+				"killType": 0
+			},
+			{
+				"difficulty": 4,
+				"attackDamage": 320,
+				"attackRange": 90,
+				"attackInterval": 4,
+				"maxHealth": 1400000,
+				"maxArmor": 1400000,
+				"maxSpeed": 250,
+				"bonusMoney": 16000,
+				"killType": 0
+			},
+			{
+				"difficulty": 5,
+				"attackDamage": 500,
+				"attackRange": 120,
+				"attackInterval": 3,
+				"maxHealth": 3000000,
+				"maxArmor": 3000000,
+				"maxSpeed": 250,
+				"bonusMoney": 16000,
+				"killType": 0
+			},
+			{
+				"difficulty": 6,
+				"attackDamage": 600,
+				"attackRange": 120,
+				"attackInterval": 3,
+				"maxHealth": 6000000,
+				"maxArmor": 6000000,
+				"maxSpeed": 290,
+				"bonusMoney": 16000,
+				"killType": 0
+			},
+			{
+				"difficulty": 7,
+				"attackDamage": 800,
+				"attackRange": 120,
+				"attackInterval": 3,
+				"maxHealth": 9000000,
+				"maxArmor": 9000000,
+				"maxSpeed": 290,
+				"bonusMoney": 16000,
+				"killType": 0
+			}
+		],
+		"Colors": [204, 51, 255],
+		"Skills": [
+			{
+				"ID": 0,
+				"Name": "Speedy",
+				"Params": {
+					"Speed": 10,
+					"Attack": 20,
+					"Skill": 25
+				}
+			},
+			{
+				"ID": 1,
+				"Name": "Doppelganger",
+				"Params": {
+					"Num": 1
+				},
+				"Params4": {
+					"Num": 2
+				},
+				"Params5": {
+					"Num": 3
+				},
+				"Params6": {
+					"Num": 4
+				},
+				"Params7": {
+					"Num": 4
+				}
+			},
+			{
+				"ID": 2,
+				"Name": "AttackUp",
+				"Params": {
+					"Percent": 20
+				}
+			},
+			{
+				"ID": 3,
+				"Name": "FireBall",
+				"Params": {
+					"CoolTime": 12,
+					"Speed": 150,
+					"HP": 2000,
+					"Range": 3,
+					"Damage": 200
+				},
+				"Params4": {
+					"HP": 4000,
+					"Damage": 300
+				},
+				"Params5": {
+					"CoolTime": 10,
+					"Speed": 200,
+					"HP": 6000,
+					"Damage": 450
+				},
+				"Params6": {
+					"CoolTime": 8,
+					"Speed": 200,
+					"HP": 8000,
+					"Damage": 600
+				},
+				"Params7": {
+					"CoolTime": 8,
+					"Speed": 200,
+					"HP": 8000,
+					"Damage": 600
+				}
+			},
+			{
+				"ID": 4,
+				"Name": "FrostNova",
+				"Params": {
+					"CoolTime": 15,
+					"Range": 3,
+					"SpeedPercent": 20,
+					"SpeedDownDuration": 2,
+					"Damage": 100
+				},
+				"Params4": {
+					"Damage": 150
+				},
+				"Params5": {
+					"CoolTime": 12,
+					"SpeedPercent": 30,
+					"Damage": 200
+				},
+				"Params6": {
+					"CoolTime": 9,
+					"SpeedPercent": 30,
+					"SpeedDownDuration": 4,
+					"Damage": 300
+				},
+				"Params7": {
+					"CoolTime": 8,
+					"SpeedPercent": 30,
+					"SpeedDownDuration": 4,
+					"Damage": 400
+				}
+			},
+			{
+				"ID": 5,
+				"Name": "Teleport",
+				"Params": {
+					"CoolTime": 10
+				},
+				"Params5": {
+					"CoolTime": 9
+				},
+				"Params6": {
+					"CoolTime": 8
+				},
+				"Params7": {
+					"CoolTime": 8
+				}
+			},
+			{
+				"ID": 6,
+				"Name": "FireWall",
+				"Params": {
+					"CoolTime": 12,
+					"Damage": 100,
+					"Duration": 3
+				},
+				"Params4": {
+					"Damage": 150,
+					"Duration": 3
+				},
+				"Params5": {
+					"CoolTime": 10,
+					"Damage": 200,
+					"Duration": 4
+				},
+				"Params6": {
+					"CoolTime": 8,
+					"Damage": 250,
+					"Duration": 4
+				},
+				"Params7": {
+					"CoolTime": 8,
+					"Damage": 350,
+					"Duration": 4
+				}  
+			},
+			{
+				"ID": 7,
+				"Name": "Thunder",
+				"Params": {
+					"CoolTime": 12,
+					"Damage": 100,
+					"Interval": 2,
+					"Range": 2
+				},
+				"Params4": {
+					"CoolTime": 10,
+					"Damage": 160
+				},
+				"Params5": {
+					"CoolTime": 8,
+					"Damage": 240
+				},
+				"Params6": {
+					"CoolTime": 5,
+					"Damage": 300
+				},
+				"Params7": {
+					"CoolTime": 5,
+					"Damage": 420
+				}
+			},
+			{
+				"ID": 8,
+				"Name": "Invincible",
+				"Params": {
+					"CoolTime": 18,
+					"Duration": 3
+				},
+				"Params4": {
+					"CoolTime": 15
+				},
+				"Params5": {
+					"CoolTime": 15,
+					"Duration": 4
+				},
+				"Params6": {
+					"CoolTime": 15,
+					"Duration": 4
+				},
+				"Params7": {
+					"CoolTime": 12,
+					"Duration": 4
+				}
+			},
+			{
+				"ID": 9,
+				"Name": "HPPlus",
+				"Params": {
+					"Percent": 40
+				}
+			},
+			{
+				"ID": 10,
+				"Name": "HPRegeneration",
+				"Params": {
+					"HP": 50,
+					"BonusTime": 10,
+					"Bonus": 3
+				},
+				"Params3": {
+					"HP": 80
+				},
+				"Params4": {
+					"HP": 130
+				},
+				"Params5": {
+					"HP": 200
+				},
+				"Params6": {
+					"HP": 250,
+					"Bonus": 4
+				},
+				"Params7": {
+					"HP": 400,
+					"Bonus": 2
+				}
+			},
+			{
+				"ID": 11,
+				"Name": "DoubleSide",
+				"Params": {
+					"CoolTime": 10,
+					"RangeDmgDown": 50,
+					"MeleeDmgUp": 50,
+					"RangeDmgUp": 50,
+					"MeleeDmgDown": 50
+				}
+			},
+			{
+				"ID": 12,
+				"Name": "BlackHole",
+				"Params": {
+					"CoolTime": 16,
+					"Range": 15,
+					"Damage": 30,
+					"PullPower" :  800,
+					"PullPowerZ": 200
+				},
+				"Params3": {
+					"Damage": 60
+				},
+				"Params4": {
+					"Damage": 90
+				},
+				"Params5": {
+					"CoolTime": 13,
+					"Damage": 120
+				},
+				"Params6" : {
+					"CoolTime": 10,
+					"Damage": 150
+				},
+				"Params7" : {
+					"CoolTime": 10,
+					"Damage": 210
+				}
+			},
+			{
+				"ID": 13,
+				"Name": "Web",
+				"Params": {
+					"SpeedDown": 30
+				},
+				"Params4": {
+					"SpeedDown": 40
+				},
+				"Params5": {
+					"SpeedDown": 50
+				},
+				"Params6": {
+					"SpeedDown": 60
+				},
+				"Params7": {
+					"SpeedDown": 70
+				}
+			}
+		]
+	}
+}
